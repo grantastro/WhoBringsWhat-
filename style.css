@@ -1,0 +1,46 @@
+body {
+  background: #473e3f;
+}
+.container {
+  padding: 50px !important;
+  background: #62c2cc;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 6rem;
+}
+
+.success,
+.error {
+  color: #fff;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: #8edc9d;
+}
+
+.error {
+  background: #ff0000;
+}
+
+.teal {
+  background: #fdb813 !important;
+  color: #fff !important;
+}
+
+.teal:hover {
+  background: #f68b1f !important;
+}
+
+.delete {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+input[type="text"]:focus {
+  background: #ffffe0;
+}
