@@ -73,7 +73,7 @@ class Store {
     tasks.forEach(function(task) {
       const ui = new UI();
 
-      // Add new book to ui
+      // Add new task to ui
       ui.addTaskToList(task);
     });
   }
@@ -102,7 +102,7 @@ class Store {
 // Dom Load event
 document.addEventListener("DOMContentLoaded", Store.displayTasks);
 
-// Event Listener for add book
+// Event Listener for add task
 document.getElementById("task-form").addEventListener("submit", function(e) {
   // Get form values
   const name = document.getElementById("name").value,
@@ -122,7 +122,7 @@ document.getElementById("task-form").addEventListener("submit", function(e) {
     // Error alert
     ui.showAlert("Please fill in all fields", "error");
   } else {
-    // Add book to list
+    // Add task to list
     ui.addTaskToList(task);
 
     // Add to ls
