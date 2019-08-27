@@ -1,6 +1,11 @@
 body {
   background: #473e3f;
 }
+
+.bungee {
+  font-family: "Bungee", cursive;
+}
+
 .container {
   padding: 50px !important;
   background: #62c2cc;
